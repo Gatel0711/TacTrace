@@ -10,5 +10,31 @@ package Model;
  * @author user009
  */
 public class Shape {
-    
+ private String SID;
+ private String name;
+ private int size;
+
+    public String getID() {
+        return SID;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public Shape() {
+    }
+
+    public Shape(String SID, String name, int size) {
+        this.SID = SID;
+        this.name = name;
+        this.size = size;
+    }
+
+ 
+ 
 }
